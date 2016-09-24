@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textAboutSandy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:longClickable="false"
+        android:text="@string/text_about_sandy"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textAboutRajeshree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textAboutSandy"
+        android:layout_marginTop="33dp"
+        android:clickable="false"
+        android:longClickable="false"
+        android:text="@string/text_about_rajeshree"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textAboutPawan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textAboutRajeshree"
+        android:layout_marginTop="33dp"
+        android:clickable="false"
+        android:longClickable="false"
+        android:text="@string/text_about_pawan"
+        android:textSize="15sp" />
+
+</RelativeLayout>
